@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript Quiz</h1>
+    <form id="quizForm">
+        <div class="question">
+            <h4>1. What is the capital of France?</h4>
+            <label><input type="radio" name="q1" value="Paris"> Paris </label><br>
+            <label><input type="radio" name="q1" value="London"> London </label><br>
+            <label><input type="radio" name="q1" value="Rome"> Rome </label><br>
+            <label><input type="radio" name="q1" value="Berlin"> Berlin </label><br>
+        </div>
+
+        <div class="question">
+            <h4>2. Which language is used for web development?</h4>
+            <label><input type="radio" name="q2" value="Python"> Python </label><br>
+            <label><input type="radio" name="q2" value="JavaScript"> JavaScript </label><br>
+            <label><input type="radio" name="q2" value="Java"> Java </label><br>
+            <label><input type="radio" name="q2" value="C++"> C++ </label><br>
+        </div><br>
+
+        <button type="button" id="submitQuiz">Submit Quiz</button>
+    </form><br>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
